@@ -1,0 +1,147 @@
+/* Reset default margin and padding */
+body, h1, h2, h3, p, ul, li, a {
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Set global font and background */
+  body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #f9f9f9;
+    color: #333;
+  }
+  
+  /* Style the header */
+  header {
+    text-align: center;
+    padding: 50px 0;
+    background-color: #007bff;
+    color: #fff;
+  }
+  
+  header h1 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+  }
+  
+  header h2 {
+    font-size: 1.5rem;
+  }
+  
+  /* Style the navigation */
+  nav {
+    background-color: #fff;
+    border-bottom: 1px solid #ddd;
+    text-align: center;
+    padding: 10px 0;
+  }
+  
+  nav a {
+    color: #007bff;
+    text-decoration: none;
+    margin: 0 15px;
+    font-size: 1rem;
+  }
+  nav a:hover{
+    background-color: #333;
+    color: white;
+  }
+  
+  /* Style the sections */
+  section {
+    padding: 30px;
+  }
+  
+  /* Style the about section */
+  #about p {
+    font-size: 1rem;
+    line-height: 1.6;
+  }
+  
+  #about ul {
+    list-style-type: disc;
+    margin-left: 20px;
+    font-size: 1rem;
+    line-height: 1.6;
+  }
+  
+  /* Style the course outline */
+  #outline .modules li {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    margin: 20px 0;
+    padding: 20px;
+  }
+  
+  #outline .modules li h3 {
+    color: #007bff;
+    font-size: 1.25rem;
+  }
+  
+  #outline .module-details {
+    color: #444;
+    font-size: 1rem;
+    margin-top: 10px;
+  }
+  
+  #outline .details-button {
+    background-color: #007bff;
+    border: none;
+    border-radius: 4px;
+    color: #fff;
+    cursor: pointer;
+    font-size: 1rem;
+    padding: 8px 16px;
+    margin-top: 10px;
+  }
+  
+  #outline .details-button:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Style the instructors section */
+  #instructors .instructor-card {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    margin: 20px 0;
+    padding: 20px;
+  }
+  
+  #instructors .instructor-card h3 {
+    color: #007bff;
+    font-size: 1.25rem;
+    margin-top: 10px;
+  }
+  
+  #instructors .instructor-card p {
+    font-size: 1rem;
+    line-height: 1.6;
+  }
+.photo img {
+    max-width: 75px; /* Set a slightly larger maximum width */
+    height: auto; /* Let the height adjust automatically to maintain aspect ratio */
+    border-radius: 50%; /* Makes the photos circular */
+}
+  
+  /* Style the contact section */
+  #contact h3 a {
+    color: #007bff;
+    text-decoration: none;
+    font-size: 1.25rem;
+    display: block;
+    margin-top: 10px;
+  }
+  
+  #contact h3 a:hover {
+    text-decoration: underline;
+  }
+  footer{
+    background-color: navy;
+    color:#fff;
+    text-align: center;
+    padding:1rem;
+
+}
+  
